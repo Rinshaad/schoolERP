@@ -1,0 +1,8 @@
+{% extends 'index/base.html' %}
+{% block title %}master{% endblock %}
+{%block content%}
+    <h1>welcome to home</h1>
+    <a href="{% url 'schooladmin:addstudent' %}">Add student</a><br>
+    <a href="{% url 'schooladmin:viewattendence' %}">view Attendence</a><br>
+    <a href="{% url 'schooladmin:viewstudent' %}">view Student</a><br>
+    {% endblock %}

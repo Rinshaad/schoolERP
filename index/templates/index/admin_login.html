@@ -1,0 +1,12 @@
+{% extends 'index/base.html' %}
+{% block title %}master{% endblock %}
+{%block content%}
+    <h1>Admin Login</h1>
+<form action="{% url 'schooladmin:home' %}">
+    <label>username</label>
+    <input type="text"><br><br>
+    <label>password</label>
+    <input type="password"><br><br>
+    <input type="submit"  value="login">
+</form>
+{% endblock %}

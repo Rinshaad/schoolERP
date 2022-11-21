@@ -1,0 +1,13 @@
+
+{% extends 'index/base.html' %}
+{% load static%}
+{% block title %}master{% endblock %}
+{% block content %}
+
+    <h1>welcome to school</h1>
+    <br>
+    <a href="{% url 'index:admin_login' %}">School Admin</a><br>
+    <a href="{% url 'index:teacher_login' %}">Teacher Login</a><br>
+    <a href="{% url 'index:student_login' %}">Students Login</a><br>
+    <img src="{% static 'image/download.jpg' %}" />
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'index/base.html' %}
+{% block title %}master{% endblock %}
+{%block content%}
+    <h1>Student Login</h1>
+<form action="{% url 'student:home' %}">
+    <label><B>username</label>
+    <input type="text"><br><br>
+    <label>password</label>
+    <input type="password"><br><br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <input type="submit" value="login">
+</form>
+{% endblock %}
+
