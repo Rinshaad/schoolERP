@@ -1,13 +1,17 @@
-
 {% extends 'index/base.html' %}
-{% load static%}
-{% block title %}master{% endblock %}
-{% block content %}
+{% load static %}
 
-    <h1>welcome to school</h1>
-    <br>
-    <a href="{% url 'index:admin_login' %}">School Admin</a><br>
-    <a href="{% url 'index:teacher_login' %}">Teacher Login</a><br>
-    <a href="{% url 'index:student_login' %}">Students Login</a><br>
-    <img src="{% static 'image/school.jpg' %}" width="500px" height="500px" />
+{% block content %}
+<div>
+    <div style="float: left;" >
+        <h1 style="color: red;">welcome to school</h1>
+        <br>
+        <a href="{% url 'index:admin_login' %}">School Admin</a><br>
+        <a href="{% url 'index:teacher_login' %}">Teacher Login</a><br>
+        <a href="{% url 'index:student_login' %}">Students Login</a><br>
+    </div>
+    <div style="display: inline-block; margin-left: 100px;">
+        <img src="{% static 'image/school.jpg' %}" width="300px" height="300px" />
+    </div>
+</div>
 {% endblock %}
