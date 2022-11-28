@@ -1,5 +1,8 @@
 {% extends 'index/base.html' %}
 {% load static %}
+{% block header %}
+<link rel="stylesheet" href="{% static 'css/style2.css' %}">
+{% endblock %}
 
 {% block content %}
 <div>
@@ -15,3 +18,5 @@
     </div>
 </div>
 {% endblock %}
+</body>
+</html>

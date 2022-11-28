@@ -11,3 +11,7 @@ def teacherlogin(request):
     return render(request,('index/teacher_login.html'))
 def master(request):
     return render(request,('index/master.html'))
+def example(request):
+    return render(request,'index/example.html')
+def css(request):
+    return render(request,'index/cssexample.html')

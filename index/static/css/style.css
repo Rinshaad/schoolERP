@@ -1,0 +1,26 @@
+h1{
+    background-color: blue;
+}
+#para{
+    color: blueviolet;
+    background-color: black;
+}
+.head{
+    background-color: brown;
+    
+}
+div{
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div span{
+    color: pink;
+}
+span{
+    color: red;
+}
+a[href="google.com"]{
+    background-color: gray;
+}
+

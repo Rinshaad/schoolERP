@@ -10,5 +10,7 @@ urlpatterns = [
     path('studentlogin',views.studentlogin,name='student_login'),
     path('adminlogin',views.adminlogin,name='admin_login'),
     path('teacherlogin',views.teacherlogin,name='teacher_login'),
-    path('master',views.master)
+    path('master',views.master),
+    path('example',views.example),
+    path('css',views.css)
 ]

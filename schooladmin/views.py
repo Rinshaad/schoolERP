@@ -12,3 +12,4 @@ def view_attendence(request):
 
 def view_student(request):
     return render(request,'schooladmin/view_student.html')
+
