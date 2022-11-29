@@ -15,3 +15,7 @@ def example(request):
     return render(request,'index/example.html')
 def css(request):
     return render(request,'index/cssexample.html')
+def example3(request):
+    return render(request,'index/example3.html')
+def example4(request):
+    return render(request,'index/example4.html')

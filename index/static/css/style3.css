@@ -1,0 +1,31 @@
+.para{
+    background-color:red ;
+    height: 200px;
+    width: 400px;
+    color: aliceblue!important;
+    /* border-top-width:5px ;
+    border-top-style: solid;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-width: 5px;
+    border-bottom-style: dashed;
+    border-top-color: rgb(5, 5, 5); */
+    /* border-width: 15px 5px 15px 5px;
+    border-style: solid;
+    border-color: darkgreen black; */
+    border: 2px solid black;
+    margin: 50px 50px 50px 50px;
+    padding: 100px 10px 10px 10px;
+   
+}
+#pa{
+    color: green;
+    background-color: gray;
+}
+#p1{
+    background-color: aqua;
+    min-height: 20px;
+    max-height: 200px;
+    width: 500px;
+    overflow: scroll;
+}
